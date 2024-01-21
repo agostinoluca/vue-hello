@@ -16,7 +16,9 @@ export default {
   </header>
   
   <main>
-
+    <div>
+      <img v-bind:src="image" alt="lorem picsum">
+    </div>
   </main>
 
   <footer>
